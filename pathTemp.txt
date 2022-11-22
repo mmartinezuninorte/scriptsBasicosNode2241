@@ -1,1 +1,2 @@
-la ruta temporal es: C:\Users\viald\AppData\Local\Temp
+la ruta temporal es: C:\Users\viald\AppData\Local\Temp, y ademas
+            mi arquitectura es x64
