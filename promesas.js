@@ -10,4 +10,9 @@
 //     console.log(error)
 // })
 
+const moduloExterno = require('./calulosPromesa')
 
+moduloExterno.calculoMagico(1,3)
+    .then((respuesta)=>moduloExterno.imprimirMagico(respuesta))
+    .then((respuestaImprimir)=>console.log(respuestaImprimir))
+    .catch((err)=>console.log(err))
